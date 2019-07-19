@@ -6,7 +6,7 @@ import Todo from './Todo';
 class TodoList extends React.Component {
   render(){
     return(
-        <ul> {this.props.tasks.map((task, i) => <Todo key = {i} index = {i} task = {task.text} completed = {task.completed}/>)}</ul>
+        <ul> {this.props.todos.map((todo, i) => <Todo key = {i} index = {i} task = {todo.text} completed = {todo.completed}/>)}</ul>
     )
   }
 
