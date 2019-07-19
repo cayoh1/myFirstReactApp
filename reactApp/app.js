@@ -15,7 +15,7 @@ class Todo extends React.Component {
       )
   }
 
-}
+} 
 
 class TodoList extends React.Component {
   render(){
